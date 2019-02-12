@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Find A Friend</title>
+    <link rel="stylesheet" type="text/css" href="public/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="public/css/css.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+</head>
+
+<body>
+    <div class="banner" style="height:95%">
+        <div class="top">
+            <h4>
+                Survey Questions
+            </h4>
+            <hr>
+            <p>
+                Name:
+            </p>
+            <input type="text" id="name" class="form-control" required="">
+            <p>
+                Link to photo:
+            </p>
+            <input type="text" id="photoLink" class="form-control" required="">
+
+        </div>
+
+        <div id="survey">
+           
+            <div class="questionContainer">
+                <p>1.) You find it difficult to introduce yourself to other people.</p>
+            </div>
+                <form>
+                    <select id="question1" style="font-family: 'Merriweather', serif;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 (Somewhat Disagree)</option>
+                        <option value=3>3 (Unsure)</option>
+                        <option value=4>4 (Somewhat Agree)</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="questionContainer">
+                <p>2.) You often get so lost in thoughts that you ignore or forget your surroundings.</p>
+            </div>
+                <form>
+                    <select id="question2" style="font-family: 'Merriweather', serif;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 (Somewhat Disagree)</option>
+                        <option value=3>3 (Unsure)</option>
+                        <option value=4>4 (Somewhat Agree)</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="questionContainer">
+                <p>3.) You try to respond to your e-mails as soon as possible and cannot stand a messy.</p>
+            </div>
+
+                <form>
+                    <select id="question3" style="font-family: 'Merriweather', serif;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 (Somewhat Disagree)</option>
+                        <option value=3>3 (Unsure)</option>
+                        <option value=4>4 (Somewhat Agree)</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            <div class="questionContainer">
+                <p>4.) You find it easy to stay relaxed even when there is some pressure.</p>
+            </div>
+                <form>
+                    <select id="question4" style="font-family: 'Merriweather', serif;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 (Somewhat Disagree)</option>
+                        <option value=3>3 (Unsure)</option>
+                        <option value=4>4 (Somewhat Agree)</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+           
+            <div class="questionContainer">
+                <p>5.) You do not usually initiate conversations.</p>
+            </div>
+                <form>
+                    <select id="question5" style="font-family: 'Merriweather', serif;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 (Somewhat Disagree)</option>
+                        <option value=3>3 (Unsure)</option>
+                        <option value=4>4 (Somewhat Agree)</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="questionContainer">
+                <p>6.) You rarely do something just out of sheer curiosity.</p>
+            </div>
+                <form>
+                    <select id="question6" style="font-family: 'Merriweather', serif;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 (Somewhat Disagree)</option>
+                        <option value=3>3 (Unsure)</option>
+                        <option value=4>4 (Somewhat Agree)</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="questionContainer">
+                <p>7.) Being organized is more important to you than being adaptable.</p>
+            </div>
+                <form>
+                    <select id="question7" style="font-family: 'Merriweather', serif;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 (Somewhat Disagree)</option>
+                        <option value=3>3 (Unsure)</option>
+                        <option value=4>4 (Somewhat Agree)</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+           
+            
+            <div class="questionContainer">
+                <p>8.) Winning a debate matters less to you than making sure no one gets upset.</p>
+            </div>
+                <form>
+                    <select id="question8" style="font-family: 'Merriweather', serif;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 (Somewhat Disagree)</option>
+                        <option value=3>3 (Unsure)</option>
+                        <option value=4>4 (Somewhat Agree)</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="questionContainer">
+                <p>9.) You often feel as if you have to justify yourself to other people.</p>
+                </div>
+                <form>
+                    <select id="question9" style="font-family: 'Merriweather', serif;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 (Somewhat Disagree)</option>
+                        <option value=3>3 (Unsure)</option>
+                        <option value=4>4 (Somewhat Agree)</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="questionContainer">
+                <p>10.) You consider yourself more practical than creative.</p>
+            </div>
+                
+                <form>
+                    <select id="question10" style="font-family: 'Merriweather', serif;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 (Somewhat Disagree)</option>
+                        <option value=3>3 (Unsure)</option>
+                        <option value=4>4 (Somewhat Agree)</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+        </div>
+        <br>
+        <div id="subButton">
+        <button type="submit" class="btn btn-primary btn-md" id="add-btn">Submit</button>
+        </div>
+    </div>
+
+<div id="myModal" class="modal">
+        <div class="modal-content">      
+              <span class="close">x</span>
+              <h4>Your match is: </h4>
+              <span><h4 id="nameResult"></h4></span>
+              </h4><img id="photoResult" src="">
+      </div>
+</div>
+
+</body>
+
+<script type="text/javascript">
+    $("#add-btn").on("click", function (event) {
+        event.preventDefault();
+        var submit = true;
+        for (var i = '1'; i < 10; i++) {
+            if ($("#question"+ i).val() === 'select') {
+                console.log('select found' + submit);
+              submit = false;
+            }
+        }
+        if ($("#name").val() === "" || $("#photoLink").val() === "" || !submit) {
+            alert("Please complete all fields of the form.");
+        }
+        
+        else {
+            var newRes = {
+                name: $("#name").val().trim(),
+                photo: $("#photoLink").val().trim(),
+                scores: [$("#question1").val(), $("#question2").val(), $("#question3").val(), $("#question4").val(), $("#question5").val(), $("#question6").val(), $("#question7").val(), $("#question8").val(), $("#question9").val(), $("#question10").val()]
+            };
+
+           $("#name").val("");
+           $("#photoLink").val("");
+            for (var i = '1'; i < 11; i++) {
+              $("#question"+ i).val('');
+            }
+    
+            $.post("/api/friends", newRes)
+            .then(function(data) {
+              console.log(data.name);
+              $("#nameResult").text(data.name);
+              $("#photoResult").attr("src", data.photo);
+              modal.style.display = "block";
+            });
+
+        }
+    });
+
+var modal = document.getElementById('myModal');
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+</html>
